@@ -4,24 +4,31 @@ body{
 	font-family: open-sans, helvetica, arial, sans-serif;
 	font-size: 18px;
 	line-height:24px;
+	background-color: black;
 
 }
 
 header{
-	background-color: #d14635;
+	background-color: #0025eb;
 	text-align:center;
-	padding-top:50px;
+	padding-top:75px;
 	padding-bottom:50px;
+	text-shadow: 6px 6px black;
+
 }
+
+/*header styles*/
 
 h1, h2{
 	font-family: baveuse, 'Work Sans', sans-serif;
+	
 }
 
 header h1{
 	color: white;
 	font-size: 50px;
 	line-height:60px;
+	letter-spacing: 3px;
 
 
 }
@@ -29,14 +36,50 @@ header h1{
 header img{
 	border-radius: 170px;
 	width: 300px;
-	border: 20px solid white;
+	border: 18px solid black;
 }
 
+
+
+.topnav{
+	overflow: hidden;
+	background-color:black;
+	font-family: baveuse, 'Work Sans', sans-serif;
+
+}
+
+.topnav a{
+	float: left;
+	color:white;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size:16px;
+	letter-spacing: 1.25px;
+	text-shadow: 1.5px 1.5px #0025eb;
+	margin: 10px, 50px;
+
+}
+
+.topnav a:hover{
+	background-color: white;
+	color:#0025eb;
+	text-shadow: 1.5px 1.5px gray;
+
+}
+
+.topnav a.active{
+	background-color: #0025eb;
+	color:white;
+	text-shadow: 3px 3px black;
+
+}
 
 main {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
+	color:white;
 
 
 }
@@ -48,27 +91,34 @@ main img{
 
 h2 {
 	font-size: 30px;
-	color: black;
+	color: white;
 	line-height: 36px;
 	margin:40px 0 10px;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px #0025eb;
+
+
 }
 
 a{ 
-	color: black;
+	color: white;
 
 }
 
 a:hover{
-	color: white;
+	color: #8ac33e;
 	background-color: black;
 
 }
 
 footer{
-		background-color: #d14635;
+		background-color: #0025eb;
 		text-align:center;
 		color:white;
 		padding: 50px;
+		font-family: baveuse, 'Work Sans', sans-serif;
+		text-shadow: 2.5px 2.5px black;
+
 }
 
 footer p{
@@ -77,10 +127,11 @@ footer p{
 
 a footer{
 	color:white;
+
 }
 
+
 footer a:hover{
-	opacity: .5;
 	background color: transparent;
 }
 
@@ -91,7 +142,9 @@ p.caption{
 	margin-top:0;
 }
 
-
+iframe{
+	margin-bottom:40px;
+}
 
 
 
